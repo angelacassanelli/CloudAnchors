@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "934003740067",
+    "firebase_url": "https://cloud-anchors-c4ab8-default-rtdb.firebaseio.com",
+    "project_id": "cloud-anchors-c4ab8",
+    "storage_bucket": "cloud-anchors-c4ab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934003740067:android:9c5e008d74c8a109901e16",
+        "android_client_info": {
+          "package_name": "com.AngelaCassanelli.CloudAnchorsARf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934003740067-e1u5tj425pvd2g2g61arncg3e5blll5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD55r0IRoEExIGUlzkdgslgUW9ERw_0M4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934003740067-e1u5tj425pvd2g2g61arncg3e5blll5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

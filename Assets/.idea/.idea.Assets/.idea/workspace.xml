@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06e80e0e-ff70-47a9-8989-b1f023248255" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assets/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FirebaseInit.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#120#0" expanded="true" />
+                <marker date="1616583579000" expanded="true" signature="163:1188" ph="{...}" />
+                <marker date="1616583579000" expanded="true" signature="239:1185" ph="{...}" />
+                <marker date="1616583579000" expanded="true" signature="326:1177" ph="{...}" />
+                <marker date="1616583579000" expanded="true" signature="537:926" ph="{...}" />
+                <marker date="1616583579000" expanded="true" signature="555:697" ph="/* Create and hold a reference to your FirebaseApp, ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnchorData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnchorBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnchorSaveManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+              <folding>
+                <marker date="1616715244000" expanded="true" signature="7:367" ph="..." />
+                <marker date="1616715244000" expanded="true" signature="425:2501" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="577:618" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="931:1097" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="1127:1235" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="1312:1592" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="1408:1586" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="1639:1812" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="1689:1806" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="1888:2146" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="2013:2058" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="2234:2367" ph="{...}" />
+                <marker date="1616715244000" expanded="true" signature="2423:2498" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoadSceneForAnchorSaveState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SyncAnchorToSave.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pose</find>
+      <find>CloudAnchorsNetworkManager</find>
+      <find>OnAnchorUpdated</find>
+      <find>AnchorUpdatedEvent</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/FirebaseInit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/CloudAnchorsNetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AnchorBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/NetworkManagerUIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AnchorData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/CloudAnchorsExampleController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AnchorSaveManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SyncAnchorToSave.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/LocalPlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LoadSceneForAnchorSaveState.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FirebaseInit.cs" />
+        <option value="$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/CloudAnchorsExampleController.cs" />
+        <option value="$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/AnchorData.cs" />
+        <option value="$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/LoadSceneForAnchorSaveState.cs" />
+        <option value="$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/AnchorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/SyncAnchorToSave.cs" />
+        <option value="$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/AnchorSaveManager.cs" />
+        <option value="$PROJECT_DIR$/AnchorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/AnchorSaveManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="805" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06e80e0e-ff70-47a9-8989-b1f023248255" name="Default Changelist" comment="" />
+      <created>1616503596116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616503596116</updated>
+      <workItem from="1616503606808" duration="2448000" />
+      <workItem from="1616579590334" duration="18165000" />
+      <workItem from="1616687833785" duration="328000" />
+      <workItem from="1616710579714" duration="3493000" />
+      <workItem from="1616744841167" duration="751000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25185000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Library/PackageCache/com.unity.xr.arfoundation@4.1.0-preview.10/Runtime/AR/ARSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/CloudAnchorsExampleController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="578" column="82" lean-forward="true" selection-start-line="578" selection-start-column="82" selection-end-line="578" selection-end-column="82" />
+          <folding>
+            <marker date="1616590408000" expanded="true" signature="0:828" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1616590408000" expanded="true" signature="887:27966" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="900:1282" ph="..." />
+            <marker date="1616590408000" expanded="true" signature="1288:1568" ph="/// Controller for the Cloud Anchors Example. Handles the ARCore lifecycle. ... " />
+            <marker date="1616590408000" expanded="true" signature="1631:27964" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="1681:1779" ph="/* The active AR Session Origin used in the example. ... */" />
+            <marker date="1616590408000" expanded="true" signature="1835:1919" ph="/// The AR Session used in the example. ... " />
+            <marker date="1616590408000" expanded="true" signature="1968:2055" ph="/// The AR Extentions used in the example. ... " />
+            <marker date="1616590408000" expanded="true" signature="2105:2203" ph="/// The active AR Anchor Manager used in the example. ... " />
+            <marker date="1616590408000" expanded="true" signature="2259:2358" ph="/// The active AR Raycast Manager used in the example. ... " />
+            <marker date="1616590408000" expanded="true" signature="2440:2523" ph="/* The network manager UI Controller. ... */" />
+            <marker date="1616590408000" expanded="true" signature="2596:2705" ph="/// The Lobby Screen to see Available Rooms or create a new one. ... " />
+            <marker date="1616590408000" expanded="true" signature="2754:2844" ph="/// The Start Screen to see help information. ... " />
+            <marker date="1616590408000" expanded="true" signature="2893:3022" ph="/// The AR Screen which display the AR view, return to lobby button and room number. ... " />
+            <marker date="1616590408000" expanded="true" signature="3068:3198" ph="/// The Status Screen to display the connection status and cloud anchor instructions. ... " />
+            <marker date="1616590408000" expanded="true" signature="3248:3363" ph="/// Display the tracking helper text when the session in not tracking. ... " />
+            <marker date="1616590408000" expanded="true" signature="3413:3531" ph="/// Helper message for &lt;see cref=&quot;NotTrackingReason.Initializing&quot;&gt;.&lt;/see&gt; ... " />
+            <marker date="1616590408000" expanded="true" signature="3627:3745" ph="/// Helper message for &lt;see cref=&quot;NotTrackingReason.Relocalizing&quot;&gt;.&lt;/see&gt; ... " />
+            <marker date="1616590408000" expanded="true" signature="3854:3977" ph="/// Helper message for &lt;see cref=&quot;NotTrackingReason.InsufficientLight&quot;&gt;.&lt;/see&gt; ... " />
+            <marker date="1616590408000" expanded="true" signature="4088:4214" ph="/// Helper message for &lt;see cref=&quot;NotTrackingReason.InsufficientFeatures&quot;&gt;.&lt;/see&gt; ... " />
+            <marker date="1616590408000" expanded="true" signature="4371:4492" ph="/// Helper message for &lt;see cref=&quot;NotTrackingReason.ExcessiveMotion&quot;&gt;.&lt;/see&gt; ... " />
+            <marker date="1616590408000" expanded="true" signature="4588:4705" ph="/// Helper message for &lt;see cref=&quot;NotTrackingReason.Unsupported&quot;&gt;.&lt;/see&gt; ... " />
+            <marker date="1616590408000" expanded="true" signature="4808:4973" ph="/// The key name used in PlayerPrefs which indicates whether ... " />
+            <marker date="1616590408000" expanded="true" signature="5065:5182" ph="/// The time between room starts up and ARCore session starts resolving. ... " />
+            <marker date="1616590408000" expanded="true" signature="5250:5450" ph="/// Record the time since the room started. If it passed the resolving prepare time, ... " />
+            <marker date="1616590408000" expanded="true" signature="5506:5607" ph="/// Indicates whether passes the resolving prepare time. ... " />
+            <marker date="1616590408000" expanded="true" signature="5676:5779" ph="/// Indicates whether the Anchor was already instantiated. ... " />
+            <marker date="1616590408000" expanded="true" signature="5846:5947" ph="/// Indicates whether the Cloud Anchor finished hosting. ... " />
+            <marker date="1616590408000" expanded="true" signature="6010:6168" ph="/// True if the app is in the process of quitting due to an ARCore connection error, ... " />
+            <marker date="1616590408000" expanded="true" signature="6220:6313" ph="/// The world origin transform for this session. ... " />
+            <marker date="1616590408000" expanded="true" signature="6370:6449" ph="/// The current cloud anchor mode. ... " />
+            <marker date="1616590408000" expanded="true" signature="6529:6607" ph="/// The current active UI screen. ... " />
+            <marker date="1616590408000" expanded="true" signature="6695:6764" ph="/// The Network Manager. ... " />
+            <marker date="1616590408000" expanded="true" signature="6890:6990" ph="/// Enumerates modes the example application can be in. ... " />
+            <marker date="1616590408000" expanded="true" signature="7026:7548" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="7049:7183" ph="/// Enume mode that indicate the example application is ready to host or resolve. ... " />
+            <marker date="1616590408000" expanded="true" signature="7216:7347" ph="/// Enume mode that indicate the example application is hosting cloud anchors. ... " />
+            <marker date="1616590408000" expanded="true" signature="7382:7515" ph="/// Enume mode that indicate the example application is resolving cloud anchors. ... " />
+            <marker date="1616590408000" expanded="true" signature="7558:7674" ph="/// Enumerates the active UI screens the example application can be in. ... " />
+            <marker date="1616590408000" expanded="true" signature="7707:8212" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="7730:7855" ph="/// Enume mode that indicate the example application is on lobby screen. ... " />
+            <marker date="1616590408000" expanded="true" signature="7894:8019" ph="/// Enume mode that indicate the example application is on start screen. ... " />
+            <marker date="1616590408000" expanded="true" signature="8058:8180" ph="/// Enume mode that indicate the example application is on AR screen. ... " />
+            <marker date="1616590408000" expanded="true" signature="8358:8531" ph="/// Gets a value indicating whether the Origin of the new World Coordinate System, ... " />
+            <marker date="1616590408000" expanded="true" signature="8566:8628" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="8638:8800" ph="/// Gets or sets the world origin which will be used as the transform parent for network ... " />
+            <marker date="1616590408000" expanded="true" signature="8837:9342" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="8863:8928" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="8945:9332" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="9352:9448" ph="/// Callback handling Start Now button click event. ... " />
+            <marker date="1616590408000" expanded="true" signature="9494:9569" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="9579:9676" ph="/// Callback handling Learn More Button click event. ... " />
+            <marker date="1616590408000" expanded="true" signature="9723:9851" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="9861:9935" ph="/// The Unity Start() method. ... " />
+            <marker date="1616590408000" expanded="true" signature="9963:10618" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="10285:10414" ph="/* A Name is provided to the Game Object so it can be found by other Scripts ... */" />
+            <marker date="1616590408000" expanded="true" signature="10628:10703" ph="/// The Unity Update() method. ... " />
+            <marker date="1616590408000" expanded="true" signature="10732:13680" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="10848:10900" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="11111:11163" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="11177:11305" ph="/* Give AR session some time to prepare for resolving and update the UI message ... */" />
+            <marker date="1616590408000" expanded="true" signature="11397:11758" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="11524:11744" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="11896:11972" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="11986:12092" ph="/* If the origin anchor has not been placed yet, then update in resolving mode is ... */" />
+            <marker date="1616590408000" expanded="true" signature="12170:12222" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="12428:12480" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="12622:12674" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="12949:13670" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="12980:13156" ph="/* The first touch on the Hosting mode will instantiate the origin anchor. Any ... */" />
+            <marker date="1616590408000" expanded="true" signature="13193:13305" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="13390:13656" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="13690:13986" ph="/// Indicates whether the resolving prepare time has passed so the AnchorController ... " />
+            <marker date="1616590408000" expanded="true" signature="14037:14174" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="14184:14368" ph="/// Callback called when the lobby screen's visibility is changed. ... " />
+            <marker date="1616590408000" expanded="true" signature="14427:14824" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="14462:14552" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="14620:14707" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="14724:14814" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="14834:14936" ph="/// Callback called when the resolving timeout is passed. ... " />
+            <marker date="1616590408000" expanded="true" signature="14983:15476" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="15048:15245" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="15486:15660" ph="/// Handles user intent to enter a mode where they can place an anchor to host or to exit ... " />
+            <marker date="1616590408000" expanded="true" signature="15706:16024" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="15773:15961" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="16034:16214" ph="/// Handles a user intent to enter a mode where they can input an anchor to be resolved or ... " />
+            <marker date="1616590408000" expanded="true" signature="16262:16586" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="16331:16521" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="16596:16830" ph="/// Callback indicating that the Cloud Anchor was instantiated and the host request was ... " />
+            <marker date="1616590408000" expanded="true" signature="16884:17110" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="16938:16990" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="17120:17423" ph="/// Callback indicating that the Cloud Anchor was hosted. ... " />
+            <marker date="1616590408000" expanded="true" signature="17489:17622" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="17632:17939" ph="/// Callback indicating that the Cloud Anchor was resolved. ... " />
+            <marker date="1616590408000" expanded="true" signature="18007:18096" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="18106:18230" ph="/// Callback that happens when the client successfully connected to the server. ... " />
+            <marker date="1616590408000" expanded="true" signature="18273:18938" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="18340:18490" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="18554:18705" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="18722:18928" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="18948:19064" ph="/// Callback that happens when the client disconnected from the server. ... " />
+            <marker date="1616590408000" expanded="true" signature="19112:19272" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="19323:19847" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="19366:19423" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="19857:20095" ph="/// Instantiates the anchor object at the pose of the _worldOrigin. ... " />
+            <marker date="1616590408000" expanded="true" signature="20151:20480" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="20490:20686" ph="/// Instantiates a star object that will be synchronized over the network to other clients. ... " />
+            <marker date="1616590408000" expanded="true" signature="20737:20988" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="20998:21178" ph="/// Indicates whether a star can be placed. ... " />
+            <marker date="1616590408000" expanded="true" signature="21215:21539" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="21284:21351" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="21409:21502" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="21549:21625" ph="/// Resets the internal status. ... " />
+            <marker date="1616590408000" expanded="true" signature="21660:21837" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="21847:22002" ph="/// Handles active screen switch events. ... " />
+            <marker date="1616590408000" expanded="true" signature="22069:23039" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="22661:22755" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="22819:23029" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="22850:22975" ph="/* Set platform active when switching to AR Screen so the camera permission only ... */" />
+            <marker date="1616590408000" expanded="true" signature="23049:23141" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1616590408000" expanded="true" signature="23191:23899" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="23310:23374" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="23498:23585" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="23664:23716" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="23780:23889" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="23909:24034" ph="/// Check session's NotTrackingReason and display corresponding helper messages. ... " />
+            <marker date="1616590408000" expanded="true" signature="24086:25687" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="24182:24274" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="24291:25677" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="24421:25663" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="25697:25889" ph="/// Quits the application after 5 seconds for the toast to appear. ... " />
+            <marker date="1616590408000" expanded="true" signature="25940:26168" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="25979:26031" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="26178:26368" ph="/// Returns to lobby after 3 seconds for the reason message to appear. ... " />
+            <marker date="1616590408000" expanded="true" signature="26428:26708" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="26542:26594" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="26718:26797" ph="/// Actually quit the application. ... " />
+            <marker date="1616590408000" expanded="true" signature="26827:26879" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="26889:26969" ph="/// Actually return to lobby scene. ... " />
+            <marker date="1616590408000" expanded="true" signature="27008:27175" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="27272:27560" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="27409:27466" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="27656:27805" ph="{...}" />
+            <marker date="1616590408000" expanded="true" signature="27869:27956" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/CloudAnchorsNetworkManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <marker date="1616514931000" expanded="true" signature="0:825" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1616514931000" expanded="true" signature="884:2948" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="897:961" ph="..." />
+            <marker date="1616514931000" expanded="true" signature="967:1100" ph="/// A NetworkManager that handles client connection and disconnection with customizable actions. ... " />
+            <marker date="1616514931000" expanded="true" signature="1217:2946" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="1232:1342" ph="/// Action which get called when the client connects to a server. ... " />
+            <marker date="1616514931000" expanded="true" signature="1399:1514" ph="/// Action which get called when the client disconnects from a server. ... " />
+            <marker date="1616514931000" expanded="true" signature="1574:1736" ph="/// Called on the client when connected to a server. ... " />
+            <marker date="1616514931000" expanded="true" signature="1861:2236" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="1962:2054" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="2071:2184" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="2246:2413" ph="/// Called on the client when disconnected from a server. ... " />
+            <marker date="1616514931000" expanded="true" signature="2541:2940" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="2645:2746" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="2763:2885" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/NetworkManagerUIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="48" selection-start-line="20" selection-end-line="21" />
+          <folding>
+            <marker date="1616514931000" expanded="true" signature="0:825" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1616514931000" expanded="true" signature="884:14998" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="897:1126" ph="..." />
+            <marker date="1616514931000" expanded="true" signature="1132:1227" ph="/// Controller managing UI for joining and creating rooms. ... " />
+            <marker date="1616514931000" expanded="true" signature="1402:14996" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="1417:1484" ph="/// The snackbar text. ... " />
+            <marker date="1616514931000" expanded="true" signature="1528:1619" ph="/// The Label showing the current active room. ... " />
+            <marker date="1616514931000" expanded="true" signature="1673:1761" ph="/// The return to lobby button in AR Scene. ... " />
+            <marker date="1616514931000" expanded="true" signature="1811:1897" ph="/// The Cloud Anchors Example Controller. ... " />
+            <marker date="1616514931000" expanded="true" signature="1983:2089" ph="/// The Panel containing the list of available rooms to join. ... " />
+            <marker date="1616514931000" expanded="true" signature="2140:2234" ph="/// Text indicating that no previous rooms exist. ... " />
+            <marker date="1616514931000" expanded="true" signature="2285:2383" ph="/// The prefab for a row in the available rooms list. ... " />
+            <marker date="1616514931000" expanded="true" signature="2442:2532" ph="/// The number of matches that will be shown. ... " />
+            <marker date="1616514931000" expanded="true" signature="2588:2657" ph="/// The Network Manager. ... " />
+            <marker date="1616514931000" expanded="true" signature="2776:2849" ph="/// The current room number. ... " />
+            <marker date="1616514931000" expanded="true" signature="2902:2973" ph="/// The Join Room buttons. ... " />
+            <marker date="1616514931000" expanded="true" signature="3063:3137" ph="/// The Unity Awake() method. ... " />
+            <marker date="1616514931000" expanded="true" signature="3165:4307" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="3285:3746" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="4317:4411" ph="/// Handles the user intent to create a new room. ... " />
+            <marker date="1616514931000" expanded="true" signature="4453:4660" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="4670:4764" ph="/// Handles a user intent to return to the lobby. ... " />
+            <marker date="1616514931000" expanded="true" signature="4807:5202" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="4931:5027" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="5212:5310" ph="/// Handles the user intent to refresh the room list. ... " />
+            <marker date="1616514931000" expanded="true" signature="5358:5722" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="5732:5966" ph="/// Callback indicating that the Cloud Anchor was instantiated and the host request was ... " />
+            <marker date="1616514931000" expanded="true" signature="6020:6322" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="6054:6145" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="6162:6312" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="6332:6635" ph="/// Callback indicating that the Cloud Anchor was hosted. ... " />
+            <marker date="1616514931000" expanded="true" signature="6701:7002" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="6736:6862" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="6879:6992" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="7012:7319" ph="/// Callback indicating that the Cloud Anchor was resolved. ... " />
+            <marker date="1616514931000" expanded="true" signature="7387:7732" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="7422:7550" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="7567:7722" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="7742:7935" ph="/// Use the snackbar to display the error message. ... " />
+            <marker date="1616514931000" expanded="true" signature="7993:8059" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="8069:8309" ph="/// Handles the user intent to join the room associated with the button clicked. ... " />
+            <marker date="1616514931000" expanded="true" signature="8429:8658" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="8668:9151" ph="/// Callback that happens when a &lt;see cref=&quot;NetworkMatch.ListMatches&quot;/&gt; request has been ... " />
+            <marker date="1616514931000" expanded="true" signature="9321:11012" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="9357:9488" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="9597:11002" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="9729:9979" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="10263:10988" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="10326:10401" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="11022:11462" ph="/// Callback that happens when a &lt;see cref=&quot;NetworkMatch.CreateMatch&quot;/&gt; request has been ... " />
+            <marker date="1616514931000" expanded="true" signature="11609:12140" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="11645:11776" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="12150:12578" ph="/// Callback that happens when a &lt;see cref=&quot;NetworkMatch.JoinMatch&quot;/&gt; request has been ... " />
+            <marker date="1616514931000" expanded="true" signature="12725:13257" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="12761:12893" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="13267:13632" ph="/// Callback that happens when a &lt;see cref=&quot;NetworkMatch.DropConnection&quot;/&gt; request has been ... " />
+            <marker date="1616514931000" expanded="true" signature="13703:14161" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="13808:13941" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="14171:14420" ph="/// Changes the lobby UI Visibility by showing or hiding the buttons. ... " />
+            <marker date="1616514931000" expanded="true" signature="14479:14812" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="14553:14724" ph="{...}" />
+            <marker date="1616514931000" expanded="true" signature="14884:14990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/LoadSceneForAnchorSaveState.cs" />
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/AnchorData.cs" />
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/AnchorBehaviour.cs" />
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/SyncAnchorToSave.cs" />
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/AnchorSaveManager.cs" />
+    <entry file="file://$PROJECT_DIR$/../Library/PackageCache/com.unity.xr.arfoundation@4.1.0-preview.10/Runtime/AR/ARCameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Samples/ARCore Extensions/1.23.0/Cloud Anchor Sample/Scripts/LocalPlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnchorData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnchorBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadSceneForAnchorSaveState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SyncAnchorToSave.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnchorSaveManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding>
+            <marker date="1616715244000" expanded="true" signature="7:367" ph="..." />
+            <marker date="1616715244000" expanded="true" signature="425:2501" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="577:618" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="931:1097" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="1127:1235" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="1312:1592" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="1408:1586" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="1639:1812" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="1689:1806" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="1888:2146" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="2013:2058" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="2234:2367" ph="{...}" />
+            <marker date="1616715244000" expanded="true" signature="2423:2498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirebaseInit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#120#0" expanded="true" />
+            <marker date="1616583579000" expanded="true" signature="163:1188" ph="{...}" />
+            <marker date="1616583579000" expanded="true" signature="239:1185" ph="{...}" />
+            <marker date="1616583579000" expanded="true" signature="326:1177" ph="{...}" />
+            <marker date="1616583579000" expanded="true" signature="537:926" ph="{...}" />
+            <marker date="1616583579000" expanded="true" signature="555:697" ph="/* Create and hold a reference to your FirebaseApp, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
