@@ -224,20 +224,16 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         // and returns a TransactionResult which is either TransactionResult.Success(data) with
         // modified data or TransactionResult.Abort() which stops the transaction with no changes.
         TransactionResult AddAnchorTransaction(MutableData mutableData) {
-            List<object> anchors = mutableData.Value as List<object>;
+            List<string> anchors = mutableData.Value as List<string>;
 
             if (anchors == null) {
-                anchors = new List<object>();
+                anchors = new List<string>();
             } 
             
             // Now we add the new score as a new entry that contains the email address and score.
-            Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
-                                
-            Debug.Log("Cloud Anchor Id:" + _clouAnchorId);
-            newAnchorMap["Cloud Anchor Id"] = _clouAnchorId;
-            Debug.Log("String: ciao");
-            newAnchorMap["string"] = "ciao";
-            anchors.Add(newAnchorMap);
+            //Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
+                                                        
+            anchors.Add(_clouAnchorId);
 
             // You must set the Value to indicate data at that location has changed.
             mutableData.Value = anchors;
@@ -246,10 +242,10 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 
         
         public void AddAnchorToDB() {
-            /*if (string.IsNullOrEmpty("_clouAnchorId")) {
+            if (string.IsNullOrEmpty("_clouAnchorId")) {
                 Debug.Log("invalid id.");
                 return;
-            }*/
+            }
             Debug.Log(String.Format("Attempting to add id {0}",
                 _clouAnchorId));            
             
@@ -278,6 +274,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         /// <param name="cloudAnchorId">The Cloud Anchor Id to be resolved.</param>
         private void ResolveCloudAnchorId(string cloudAnchorId)
         {
+            //get cloudanchorid from db
+            
             _cloudAnchorsExampleController.OnAnchorInstantiated(false);
             _cloudAnchor = _anchorManager.ResolveCloudAnchorId(cloudAnchorId);
             if (_cloudAnchor == null)

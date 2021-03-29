@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "auhihi7pydtoqov4",
         "name": "com.AngelaCassanelli.CloudAnchorsARf",
-        "processId": 18197,
+        "processId": 3166,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,18 @@
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 18197,
+            "exited": false
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 21836,
+            "exited": false
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 3166,
             "exited": false
         }
     ],
