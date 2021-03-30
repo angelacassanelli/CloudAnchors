@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "LMG810EAW1095e8d8",
         "name": "com.AngelaCassanelli.CloudAnchorsARf",
-        "processId": 19123,
+        "processId": 2608,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -79,6 +79,24 @@
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 19123,
             "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 30339,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 32112,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 2608,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -131,7 +149,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "",
+    "m_Filter": "Task",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

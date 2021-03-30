@@ -150,6 +150,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             {
                 if (_shouldResolve)
                 {
+                    setHostedCloudAnchorId();
+                    
                     if (!_cloudAnchorsExampleController.IsResolvingPrepareTimePassed())
                     {
                         return;
@@ -228,7 +230,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             
             NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
             
-            Debug.Log("ciao sto entarndo nel get room number");
+            Debug.Log("ciao sto entrando nel get room number");
 
             string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();                // ????????
             
@@ -289,18 +291,43 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             reference.GetValueAsync().ContinueWith(task => {
                 if (task.IsFaulted)
                 {
-                    Debug.Log("Retrieving id from db is faulted");
+                    Debug.Log("Task is faulted");
+                    _hostedCloudAnchorId = string.Empty;
+                    return;
                 }
                 else if (task.IsCompleted) {
-                    Debug.Log("Retrieving id from db is completed");
+                    Debug.Log("Task is completed");
                     DataSnapshot snapshot = task.Result;
-                    // Do something with snapshot...
-                    
-                    //object _retrievedCloudAnchorIdObj = snapshot.GetValue(false);
-                    //_hostedCloudAnchorId = _retrievedCloudAnchorIdObj.ToString();
+                    // Do something with snapshot...                    
 
-                    _hostedCloudAnchorId = snapshot.Child("Anchor id").GetValue(false).ToString();
-                    Debug.Log("Retrieved HostedCloudAnchorId:" + _hostedCloudAnchorId);
+                    //_hostedCloudAnchorId = snapshot.Child("Anchor id").GetValue(false).ToString();
+                    //Debug.Log("Retrieved HostedCloudAnchorId:" + _hostedCloudAnchorId);
+                    
+                    NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
+            
+                    Debug.Log("ciao sto entrando nel get room number");
+
+                    string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();
+
+                    foreach (DataSnapshot anchor_snapshot in snapshot.Children)
+                    {
+                        Debug.Log("ora sono nel foreach");
+                        Dictionary <string, string> anchormap = (Dictionary <string, string>)anchor_snapshot.Value;
+                        Debug.Log("ROOM NUMBER = " + anchormap["Room Number"]);
+                        Debug.Log("ANCHOR ID = " + anchormap["Anchor Id"]);
+                        if (anchormap["Room Number"] == _currentRoomNumber)
+                        {
+                            Debug.Log("ora sono nell'if del foreach");
+                            _hostedCloudAnchorId = anchormap["Anchor Id"];
+                            return;
+                        }
+                        else
+                        {
+                            Debug.Log("ora sono nell'else del foreach");
+                            _hostedCloudAnchorId = string.Empty;
+                            Debug.Log("No current room number found. Hosted Cloud Anchor Id is null.");
+                        }
+                    }
                 }
             });
         }
