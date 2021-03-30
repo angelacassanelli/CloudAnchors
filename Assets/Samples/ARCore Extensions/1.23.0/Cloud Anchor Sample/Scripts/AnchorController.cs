@@ -56,6 +56,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         [SyncVar(hook = "OnChangeId")]
 #pragma warning restore 618
         private string _clouAnchorId = string.Empty;
+        
+        private string _hostedCloudAnchorId = string.Empty;
 
         /// <summary>
         /// Indicates whether this script is running in the Host.
@@ -107,6 +109,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         /// </summary>
         private ARAnchorManager _anchorManager;
 
+        
         /// <summary>
         /// The Unity Awake() method.
         /// </summary>
@@ -163,9 +166,11 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                         }
                     }
 
-                    if (!string.IsNullOrEmpty(_clouAnchorId) && _cloudAnchor == null)
+                    //if (!string.IsNullOrEmpty("_hostedCloudAnchorId") && _cloudAnchor == null)
+                    if(1==1)
                     {
-                        ResolveCloudAnchorId(_clouAnchorId);
+                        ResolveCloudAnchorId(_hostedCloudAnchorId);
+                        Debug.Log("Ciao sono nell'update e l'id è " + _hostedCloudAnchorId);
                     }
                 }
 
@@ -187,7 +192,6 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         {
             Debug.Log("Update Cloud Anchor Id with: " + cloudAnchorId);
             _clouAnchorId = cloudAnchorId;
-            Debug.Log("SETTATO ID = " + _clouAnchorId);
         }
 
         /// <summary>
@@ -216,24 +220,35 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
         
-        
-        
-        
-                     
+            
         // A realtime database transaction receives MutableData which can be modified
         // and returns a TransactionResult which is either TransactionResult.Success(data) with
         // modified data or TransactionResult.Abort() which stops the transaction with no changes.
         TransactionResult AddAnchorTransaction(MutableData mutableData) {
-            List<string> anchors = mutableData.Value as List<string>;
+            
+            NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
+            
+            Debug.Log("ciao sto entarndo nel get room number");
+
+            string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();                // ????????
+            
+            Debug.Log("ciao sono uscito dal get room number e il room numebr è " + _currentRoomNumber);
+
+            
+            List<object> anchors = mutableData.Value as List<object>;
 
             if (anchors == null) {
-                anchors = new List<string>();
+                anchors = new List<object>();
             } 
-            
+                
+            Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
+
             // Now we add the new score as a new entry that contains the email address and score.
-            //Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
-                                                        
-            anchors.Add(_clouAnchorId);
+            Debug.Log("room number = " + _currentRoomNumber);
+            newAnchorMap["Room Number"] = "room number";           
+            newAnchorMap["Anchor id"] = _clouAnchorId;                                        
+                                                                    
+            anchors.Add(newAnchorMap);
 
             // You must set the Value to indicate data at that location has changed.
             mutableData.Value = anchors;
@@ -265,22 +280,44 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         }
         
         
-        
+        private void setHostedCloudAnchorId()
+        {
+            Debug.Log(String.Format("Attempting to retrieve cloud anchor id..."));
+
+            DatabaseReference reference = FirebaseDatabase.DefaultInstance.GetReference("anchors");
+            
+            reference.GetValueAsync().ContinueWith(task => {
+                if (task.IsFaulted)
+                {
+                    Debug.Log("Retrieving id from db is faulted");
+                }
+                else if (task.IsCompleted) {
+                    Debug.Log("Retrieving id from db is completed");
+                    DataSnapshot snapshot = task.Result;
+                    // Do something with snapshot...
+                    
+                    //object _retrievedCloudAnchorIdObj = snapshot.GetValue(false);
+                    //_hostedCloudAnchorId = _retrievedCloudAnchorIdObj.ToString();
+
+                    _hostedCloudAnchorId = snapshot.Child("Anchor id").GetValue(false).ToString();
+                    Debug.Log("Retrieved HostedCloudAnchorId:" + _hostedCloudAnchorId);
+                }
+            });
+        }
         
                 
         /// <summary>
         /// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it.
-        /// </summary>
-        /// <param name="cloudAnchorId">The Cloud Anchor Id to be resolved.</param>
-        private void ResolveCloudAnchorId(string cloudAnchorId)
-        {
-            //get cloudanchorid from db
-            
+        /// </summary>       
+        // <param name="cloudAnchorId">The Cloud Anchor Id to be resolved.</param>
+        private void ResolveCloudAnchorId(string _hostedCloudAnchorId)
+        {            
             _cloudAnchorsExampleController.OnAnchorInstantiated(false);
-            _cloudAnchor = _anchorManager.ResolveCloudAnchorId(cloudAnchorId);
+            Debug.Log("Resolving HostedCloudAnchorId:" + _hostedCloudAnchorId);
+            _cloudAnchor = _anchorManager.ResolveCloudAnchorId(_hostedCloudAnchorId);
             if (_cloudAnchor == null)
             {
-                Debug.LogErrorFormat("Client could not resolve Cloud Anchor {0}.", cloudAnchorId);
+                Debug.LogErrorFormat("Client could not resolve Cloud Anchor {0}.", _hostedCloudAnchorId);
                 _cloudAnchorsExampleController.OnAnchorResolved(
                     false, "Client could not resolve Cloud Anchor.");
                 _shouldResolve = true;
@@ -293,6 +330,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// Update the anchor if hosting Cloud Anchor is success.
         /// </summary>
@@ -323,10 +361,6 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
-        
-        
-        
-        
         
         /// <summary>
         /// Update the anchor if resolving Cloud Anchor is success.
@@ -360,6 +394,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 _shouldUpdatePoint = false;
             }
         }
+        
 
         /// <summary>
         /// Callback invoked once the Cloud Anchor Id changes.
@@ -370,7 +405,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             if (!_isHost && newId != string.Empty)
             {
                 _clouAnchorId = newId;
-                Debug.Log("CAMBIATO ID = " + _clouAnchorId);
+                Debug.Log("Update id with " + _clouAnchorId);
                 _shouldResolve = true;
                 _cloudAnchor = null;
             }

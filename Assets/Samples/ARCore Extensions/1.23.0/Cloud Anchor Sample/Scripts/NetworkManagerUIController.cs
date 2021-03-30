@@ -88,6 +88,12 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         /// The current room number.
         /// </summary>
         private string _currentRoomNumber;
+        
+/*        public string _CurrentRoomNumber   // property
+        {
+            get { return _currentRoomNumber; }   // get method
+            set { _currentRoomNumber = value; }  // set method
+        }*/
 
         /// <summary>
         /// The Join Room buttons.
@@ -319,6 +325,10 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 
             _manager.OnMatchCreate(success, extendedInfo, matchInfo);
             _currentRoomNumber = GetRoomNumberFromNetworkId(matchInfo.networkId);
+            //_room = _currentRoomNumber;
+           
+            Debug.Log("room number 1 = " + _currentRoomNumber);
+            
             SnackbarText.text = "Connecting to server...";
             ChangeLobbyUIVisibility(false);
             CurrentRoomLabel.GetComponentInChildren<Text>().text = "Room: " + _currentRoomNumber;
@@ -343,6 +353,11 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 
             _manager.OnMatchJoined(success, extendedInfo, matchInfo);
             _currentRoomNumber = GetRoomNumberFromNetworkId(matchInfo.networkId);
+
+            //_room = _currentRoomNumber;
+           
+            Debug.Log("room number 2 = " + _currentRoomNumber);
+
             SnackbarText.text = "Connecting to server...";
             ChangeLobbyUIVisibility(false);
             CurrentRoomLabel.GetComponentInChildren<Text>().text = "Room: " + _currentRoomNumber;
@@ -387,9 +402,16 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             CloudAnchorsExampleController.OnLobbyVisibilityChanged(visible);
         }
 
-        private string GetRoomNumberFromNetworkId(NetworkID networkID)
+        public string GetRoomNumberFromNetworkId(NetworkID networkID)
         {
             return (System.Convert.ToInt64(networkID.ToString()) % 10000).ToString();
+        }
+
+        public string getCurrentRoomNumber()
+        {
+            Debug.Log("Sono nel getRoom, il room number è " + _currentRoomNumber);
+
+            return _currentRoomNumber;           
         }
     }
 }
