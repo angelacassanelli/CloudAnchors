@@ -123,6 +123,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             _anchorMesh.SetActive(false);
         }
 
+        
         /// <summary>
         /// The Unity OnStartClient() method.
         /// </summary>
@@ -134,6 +135,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// The Unity Update() method.
         /// </summary>
@@ -171,8 +173,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                     //if (!string.IsNullOrEmpty("_hostedCloudAnchorId") && _cloudAnchor == null)
                     if(1==1)
                     {
-                        ResolveCloudAnchorId(_hostedCloudAnchorId);
                         Debug.Log("Ciao sono nell'update e l'id è " + _hostedCloudAnchorId);
+                        ResolveCloudAnchorId(_hostedCloudAnchorId);
                     }
                 }
 
@@ -183,6 +185,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// Command run on the server to set the Cloud Anchor Id.
         /// </summary>
@@ -196,6 +199,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             _clouAnchorId = cloudAnchorId;
         }
 
+        
         /// <summary>
         /// Hosts the user placed cloud anchor and associates the resulting Id with this object.
         /// </summary>
@@ -228,14 +232,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         // modified data or TransactionResult.Abort() which stops the transaction with no changes.
         TransactionResult AddAnchorTransaction(MutableData mutableData) {
             
-            NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
-            
-            Debug.Log("ciao sto entrando nel get room number");
-
-            string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();                // ????????
-            
-            Debug.Log("ciao sono uscito dal get room number e il room numebr è " + _currentRoomNumber);
-
+            NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();            
+            string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();           
             
             List<object> anchors = mutableData.Value as List<object>;
 
@@ -245,9 +243,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 
             Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
 
-            // Now we add the new score as a new entry that contains the email address and score.
-            Debug.Log("room number = " + _currentRoomNumber);
-            newAnchorMap["Room Number"] = "room number";           
+            // Now we add a new entry that contains the room number address and the cloud anchor id.
+            newAnchorMap["Room Number"] = _currentRoomNumber;
             newAnchorMap["Anchor id"] = _clouAnchorId;                                        
                                                                     
             anchors.Add(newAnchorMap);
@@ -292,21 +289,16 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 if (task.IsFaulted)
                 {
                     Debug.Log("Task is faulted");
-                    _hostedCloudAnchorId = string.Empty;
                     return;
                 }
                 else if (task.IsCompleted) {
                     Debug.Log("Task is completed");
                     DataSnapshot snapshot = task.Result;
+                    
                     // Do something with snapshot...                    
-
-                    //_hostedCloudAnchorId = snapshot.Child("Anchor id").GetValue(false).ToString();
-                    //Debug.Log("Retrieved HostedCloudAnchorId:" + _hostedCloudAnchorId);
                     
                     NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
             
-                    Debug.Log("ciao sto entrando nel get room number");
-
                     string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();
 
                     foreach (DataSnapshot anchor_snapshot in snapshot.Children)
@@ -324,7 +316,6 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                         else
                         {
                             Debug.Log("ora sono nell'else del foreach");
-                            _hostedCloudAnchorId = string.Empty;
                             Debug.Log("No current room number found. Hosted Cloud Anchor Id is null.");
                         }
                     }
@@ -422,7 +413,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
         
-
+        
         /// <summary>
         /// Callback invoked once the Cloud Anchor Id changes.
         /// </summary>

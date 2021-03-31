@@ -20,6 +20,7 @@
 
 namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 {
+    
     using System.Collections.Generic;
     using UnityEngine;
     using UnityEngine.Networking;
@@ -35,8 +36,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
     [RequireComponent(typeof(CloudAnchorsNetworkManager))]
 #pragma warning restore 618
     public class NetworkManagerUIController : MonoBehaviour
-    {
-        
+    {        
         /// <summary>
         /// The snackbar text.
         /// </summary>
@@ -83,23 +83,18 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 #pragma warning disable 618
         private CloudAnchorsNetworkManager _manager;
 #pragma warning restore 618
-
+        
         /// <summary>
         /// The current room number.
         /// </summary>
-        private string _currentRoomNumber;
+        private static string _currentRoomNumber;
         
-/*        public string _CurrentRoomNumber   // property
-        {
-            get { return _currentRoomNumber; }   // get method
-            set { _currentRoomNumber = value; }  // set method
-        }*/
-
         /// <summary>
         /// The Join Room buttons.
         /// </summary>
         private List<GameObject> _joinRoomButtonsPool = new List<GameObject>();
 
+        
         /// <summary>
         /// The Unity Awake() method.
         /// </summary>
@@ -131,6 +126,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 callback: OnMatchList);
             ChangeLobbyUIVisibility(true);
         }
+        
 
         /// <summary>
         /// Handles the user intent to create a new room.
@@ -142,6 +138,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 string.Empty, 0, 0, OnMatchCreate);
         }
 
+        
         /// <summary>
         /// Handles a user intent to return to the lobby.
         /// </summary>
@@ -158,6 +155,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 _manager.matchInfo.nodeId, _manager.matchInfo.domain, OnMatchDropped);
         }
 
+        
         /// <summary>
         /// Handles the user intent to refresh the room list.
         /// </summary>
@@ -173,6 +171,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 callback: OnMatchList);
         }
 
+        
         /// <summary>
         /// Callback indicating that the Cloud Anchor was instantiated and the host request was
         /// made.
@@ -191,6 +190,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// Callback indicating that the Cloud Anchor was hosted.
         /// </summary>
@@ -209,6 +209,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// Callback indicating that the Cloud Anchor was resolved.
         /// </summary>
@@ -228,6 +229,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// Use the snackbar to display the error message.
         /// </summary>
@@ -237,6 +239,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             SnackbarText.text = debugMessage;
         }
 
+        
         /// <summary>
         /// Handles the user intent to join the room associated with the button clicked.
         /// </summary>
@@ -251,6 +254,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                                          string.Empty, 0, 0, OnMatchJoined);
         }
 
+        
         /// <summary>
         /// Callback that happens when a <see cref="NetworkMatch.ListMatches"/> request has been
         /// processed on the server.
@@ -306,6 +310,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             }
         }
 
+        
         /// <summary>
         /// Callback that happens when a <see cref="NetworkMatch.CreateMatch"/> request has been
         /// processed on the server.
@@ -325,15 +330,13 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 
             _manager.OnMatchCreate(success, extendedInfo, matchInfo);
             _currentRoomNumber = GetRoomNumberFromNetworkId(matchInfo.networkId);
-            //_room = _currentRoomNumber;
-           
-            Debug.Log("room number 1 = " + _currentRoomNumber);
-            
+                       
             SnackbarText.text = "Connecting to server...";
             ChangeLobbyUIVisibility(false);
             CurrentRoomLabel.GetComponentInChildren<Text>().text = "Room: " + _currentRoomNumber;
         }
 
+        
         /// <summary>
         /// Callback that happens when a <see cref="NetworkMatch.JoinMatch"/> request has been
         /// processed on the server.
@@ -353,16 +356,13 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 
             _manager.OnMatchJoined(success, extendedInfo, matchInfo);
             _currentRoomNumber = GetRoomNumberFromNetworkId(matchInfo.networkId);
-
-            //_room = _currentRoomNumber;
            
-            Debug.Log("room number 2 = " + _currentRoomNumber);
-
             SnackbarText.text = "Connecting to server...";
             ChangeLobbyUIVisibility(false);
             CurrentRoomLabel.GetComponentInChildren<Text>().text = "Room: " + _currentRoomNumber;
         }
 
+        
         /// <summary>
         /// Callback that happens when a <see cref="NetworkMatch.DropConnection"/> request has been
         /// processed on the server.
@@ -386,6 +386,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             SceneManager.LoadScene("CloudAnchors");
         }
 
+        
         /// <summary>
         /// Changes the lobby UI Visibility by showing or hiding the buttons.
         /// </summary>
@@ -402,14 +403,16 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             CloudAnchorsExampleController.OnLobbyVisibilityChanged(visible);
         }
 
+        
         public string GetRoomNumberFromNetworkId(NetworkID networkID)
         {
             return (System.Convert.ToInt64(networkID.ToString()) % 10000).ToString();
         }
 
+        
         public string getCurrentRoomNumber()
         {
-            Debug.Log("Sono nel getRoom, il room number è " + _currentRoomNumber);
+            Debug.Log("Room number from getCurrentRoomNumber() is: " + _currentRoomNumber);
 
             return _currentRoomNumber;           
         }

@@ -1,77 +1,53 @@
 {
-    "m_SelectedDeviceId": "LMG810EAW1095e8d8",
+    "m_SelectedDeviceId": "auhihi7pydtoqov4",
     "m_SelectedPackage": {
-        "deviceId": "LMG810EAW1095e8d8",
+        "deviceId": "auhihi7pydtoqov4",
         "name": "com.AngelaCassanelli.CloudAnchorsARf",
-        "processId": 2608,
+        "processId": 22729,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "auhihi7pydtoqov4",
-            "name": "com.miui.home",
-            "processId": 1700,
-            "exited": false
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 14356,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 17041,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 23796,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.whatsapp",
-            "processId": 20093,
-            "exited": false
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 27956,
-            "exited": false
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 32701,
-            "exited": false
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 14956,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 18197,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 21836,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 3166,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 16159,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "org.telegram.messenger",
+            "processId": 17444,
+            "exited": false
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 22729,
             "exited": false
         },
         {
@@ -149,7 +125,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "Task",
+    "m_Filter": "room number",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
