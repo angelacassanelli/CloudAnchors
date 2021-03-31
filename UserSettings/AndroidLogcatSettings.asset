@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "auhihi7pydtoqov4",
+    "m_SelectedDeviceId": "LMG810EAW1095e8d8",
     "m_SelectedPackage": {
-        "deviceId": "auhihi7pydtoqov4",
+        "deviceId": "LMG810EAW1095e8d8",
         "name": "com.AngelaCassanelli.CloudAnchorsARf",
-        "processId": 22729,
+        "processId": 31165,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -73,6 +73,66 @@
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 2608,
             "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 8927,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 14411,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 17231,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 19185,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 21231,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 23090,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 25387,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 28231,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 29268,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 31165,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -125,7 +185,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "room number",
+    "m_Filter": "",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

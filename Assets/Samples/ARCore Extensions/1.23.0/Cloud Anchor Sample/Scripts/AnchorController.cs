@@ -57,7 +57,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 #pragma warning restore 618
         private string _clouAnchorId = string.Empty;
         
-        private string _hostedCloudAnchorId = string.Empty;
+        private static string _hostedCloudAnchorId = string.Empty;
 
         /// <summary>
         /// Indicates whether this script is running in the Host.
@@ -243,9 +243,9 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 
             Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
 
-            // Now we add a new entry that contains the room number address and the cloud anchor id.
+            // Now we add a new entry that contains the room number address and the cloud anchor Id.
             newAnchorMap["Room Number"] = _currentRoomNumber;
-            newAnchorMap["Anchor id"] = _clouAnchorId;                                        
+            newAnchorMap["Anchor Id"] = _clouAnchorId;                                        
                                                                     
             anchors.Add(newAnchorMap);
 
@@ -281,7 +281,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
         
         private void setHostedCloudAnchorId()
         {
-            Debug.Log(String.Format("Attempting to retrieve cloud anchor id..."));
+            Debug.Log(String.Format("Attempting to retrieve cloud anchor Id..."));
 
             DatabaseReference reference = FirebaseDatabase.DefaultInstance.GetReference("anchors");
             
@@ -294,30 +294,32 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 else if (task.IsCompleted) {
                     Debug.Log("Task is completed");
                     DataSnapshot snapshot = task.Result;
+                    Debug.Log("Entries number = " + snapshot.ChildrenCount);
                     
                     // Do something with snapshot...                    
                     
-                    NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
-            
+                    NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();            
                     string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();
 
+                    int i = 0;
                     foreach (DataSnapshot anchor_snapshot in snapshot.Children)
                     {
-                        Debug.Log("ora sono nel foreach");
-                        Dictionary <string, string> anchormap = (Dictionary <string, string>)anchor_snapshot.Value;
+                        Debug.Log("foreach - iterazione numero " + i++);
+                        IDictionary anchormap = (IDictionary)anchor_snapshot.Value;
+                        Debug.Log("anchor map = " + anchormap);
                         Debug.Log("ROOM NUMBER = " + anchormap["Room Number"]);
                         Debug.Log("ANCHOR ID = " + anchormap["Anchor Id"]);
                         if (anchormap["Room Number"] == _currentRoomNumber)
                         {
                             Debug.Log("ora sono nell'if del foreach");
-                            _hostedCloudAnchorId = anchormap["Anchor Id"];
+                            _hostedCloudAnchorId = anchormap["Anchor Id"].ToString();
                             return;
                         }
                         else
                         {
                             Debug.Log("ora sono nell'else del foreach");
-                            Debug.Log("No current room number found. Hosted Cloud Anchor Id is null.");
                         }
+                        Debug.Log("No current room number found.");
                     }
                 }
             });
