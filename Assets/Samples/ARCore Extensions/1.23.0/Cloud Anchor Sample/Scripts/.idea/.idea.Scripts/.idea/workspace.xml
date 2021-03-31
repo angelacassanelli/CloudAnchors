@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c0e493e3-9bd6-413e-9c4f-bc0bda1fccbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../../../Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnchorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnchorController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../UserSettings/AndroidLogcatSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,85 +14,100 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnchorController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="310" column="68" selection-start-line="310" selection-start-column="68" selection-end-line="310" selection-end-column="68" />
+            <state relative-caret-position="-241">
+              <caret line="177" column="21" lean-forward="true" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
               <folding>
-                <marker date="1617210760000" expanded="true" signature="0:815" ph="/* ----------------------------------------------------------------------- ... */" />
-                <marker date="1617210760000" expanded="true" signature="874:16322" ph="{...}" />
-                <marker date="1617210760000" expanded="false" signature="887:1216" ph="..." />
-                <marker date="1617210760000" expanded="true" signature="1222:1373" ph="/// A Controller for the Anchor object that handles hosting and resolving the ... " />
-                <marker date="1617210760000" expanded="true" signature="1482:16320" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="1497:1656" ph="/// The customized timeout duration for resolving request to prevent retrying to resolve ... " />
-                <marker date="1617210760000" expanded="true" signature="1721:1907" ph="/// The Cloud Anchor ID for the hosted anchor's &lt;see cref=&quot;ARCloudAnchor&quot;/&gt;. ... " />
-                <marker date="1617210760000" expanded="true" signature="2141:2243" ph="/// Indicates whether this script is running in the Host. ... " />
-                <marker date="1617210760000" expanded="true" signature="2291:2412" ph="/// Indicates whether an attempt to resolve the Cloud Anchor should be made. ... " />
-                <marker date="1617210760000" expanded="true" signature="2467:2584" ph="/// Indicates whether to chekc Cloud Anchor state and update the anchor. ... " />
-                <marker date="1617210760000" expanded="true" signature="2643:2804" ph="/// Record the time since resolving started. If the timeout has passed, display ... " />
-                <marker date="1617210760000" expanded="true" signature="2869:3031" ph="/// Indicates whether passes the resolving timeout duration or the anchor has been ... " />
-                <marker date="1617210760000" expanded="true" signature="3095:3330" ph="/// The anchor mesh object. ... " />
-                <marker date="1617210760000" expanded="true" signature="3380:3549" ph="/// The Cloud Anchor created locally which is used to moniter whether the ... " />
-                <marker date="1617210760000" expanded="true" signature="3603:3689" ph="/// The Cloud Anchors example controller. ... " />
-                <marker date="1617210760000" expanded="true" signature="3777:3901" ph="/// The AR Anchor Manager in the scene, used to host or resolve a Cloud Anchor. ... " />
-                <marker date="1617210760000" expanded="true" signature="3968:4042" ph="/// The Unity Awake() method. ... " />
-                <marker date="1617210760000" expanded="true" signature="4070:4448" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="4467:4549" ph="/// The Unity OnStartClient() method. ... " />
-                <marker date="1617210760000" expanded="true" signature="4594:4728" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="4651:4718" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="4747:4822" ph="/// The Unity Update() method. ... " />
-                <marker date="1617210760000" expanded="true" signature="4851:6290" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="4886:5037" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="4940:5023" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="5054:6280" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="5104:6140" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="5277:5353" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="5404:5790" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="5569:5768" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="5917:6122" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="6181:6266" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="6309:6484" ph="/// Command run on the server to set the Cloud Anchor Id. ... " />
-                <marker date="1617210760000" expanded="true" signature="6620:6755" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="6774:6972" ph="/// Hosts the user placed cloud anchor and associates the resulting Id with this object. ... " />
-                <marker date="1617210760000" expanded="true" signature="7020:7648" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="7293:7550" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="7567:7638" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="7679:7951" ph="/* A realtime database transaction receives MutableData which can be modified ... */" />
-                <marker date="1617210760000" expanded="true" signature="8024:9104" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="8374:8435" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="9151:10117" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="9208:9289" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="9568:9731" ph="/* Use a transaction to ensure that we do not encounter issues with ... */" />
-                <marker date="1617210760000" expanded="true" signature="9841:10105" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="9891:9976" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="10004:10087" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="10181:12288" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="10448:12276" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="10485:10599" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="10643:12262" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="11280:12244" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="11755:12000" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="12029:12154" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="12323:12445" ph="/// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it. ... " />
-                <marker date="1617210760000" expanded="true" signature="12599:13387" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="12897:13249" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="13266:13377" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="13406:13508" ph="/// Update the anchor if hosting Cloud Anchor is success. ... " />
-                <marker date="1617210760000" expanded="true" signature="13555:14471" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="13603:13707" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="13849:14164" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="14238:14461" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="14490:14594" ph="/// Update the anchor if resolving Cloud Anchor is success. ... " />
-                <marker date="1617210760000" expanded="true" signature="14643:15805" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="14691:14795" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="14937:15492" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="15566:15795" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="15832:15992" ph="/// Callback invoked once the Cloud Anchor Id changes. ... " />
-                <marker date="1617210760000" expanded="true" signature="16038:16314" ph="{...}" />
-                <marker date="1617210760000" expanded="true" signature="16099:16304" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="0:815" ph="/* ----------------------------------------------------------------------- ... */" />
+                <marker date="1617227507000" expanded="true" signature="874:16980" ph="{...}" />
+                <marker date="1617227507000" expanded="false" signature="887:1216" ph="..." />
+                <marker date="1617227507000" expanded="true" signature="1222:1373" ph="/// A Controller for the Anchor object that handles hosting and resolving the ... " />
+                <marker date="1617227507000" expanded="true" signature="1482:16978" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="1497:1656" ph="/// The customized timeout duration for resolving request to prevent retrying to resolve ... " />
+                <marker date="1617227507000" expanded="true" signature="1721:1907" ph="/// The Cloud Anchor ID for the hosted anchor's &lt;see cref=&quot;ARCloudAnchor&quot;/&gt;. ... " />
+                <marker date="1617227507000" expanded="true" signature="2141:2243" ph="/// Indicates whether this script is running in the Host. ... " />
+                <marker date="1617227507000" expanded="true" signature="2291:2412" ph="/// Indicates whether an attempt to resolve the Cloud Anchor should be made. ... " />
+                <marker date="1617227507000" expanded="true" signature="2467:2584" ph="/// Indicates whether to chekc Cloud Anchor state and update the anchor. ... " />
+                <marker date="1617227507000" expanded="true" signature="2643:2804" ph="/// Record the time since resolving started. If the timeout has passed, display ... " />
+                <marker date="1617227507000" expanded="true" signature="2869:3031" ph="/// Indicates whether passes the resolving timeout duration or the anchor has been ... " />
+                <marker date="1617227507000" expanded="true" signature="3095:3330" ph="/// The anchor mesh object. ... " />
+                <marker date="1617227507000" expanded="true" signature="3380:3549" ph="/// The Cloud Anchor created locally which is used to moniter whether the ... " />
+                <marker date="1617227507000" expanded="true" signature="3603:3689" ph="/// The Cloud Anchors example controller. ... " />
+                <marker date="1617227507000" expanded="true" signature="3777:3901" ph="/// The AR Anchor Manager in the scene, used to host or resolve a Cloud Anchor. ... " />
+                <marker date="1617227507000" expanded="true" signature="3968:4042" ph="/// The Unity Awake() method. ... " />
+                <marker date="1617227507000" expanded="true" signature="4070:4448" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="4467:4549" ph="/// The Unity OnStartClient() method. ... " />
+                <marker date="1617227507000" expanded="true" signature="4594:4728" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="4651:4718" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="4747:4822" ph="/// The Unity Update() method. ... " />
+                <marker date="1617227507000" expanded="true" signature="4851:6290" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="4886:5037" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="4940:5023" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="5054:6280" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="5104:6140" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="5277:5353" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="5404:5790" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="5569:5768" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="5917:6122" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="6181:6266" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="6309:6484" ph="/// Command run on the server to set the Cloud Anchor Id. ... " />
+                <marker date="1617227507000" expanded="true" signature="6620:6755" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="6774:6972" ph="/// Hosts the user placed cloud anchor and associates the resulting Id with this object. ... " />
+                <marker date="1617227507000" expanded="true" signature="7020:7648" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="7293:7550" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="7567:7638" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="7679:7951" ph="/* A realtime database transaction receives MutableData which can be modified ... */" />
+                <marker date="1617227507000" expanded="true" signature="8024:9115" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="8374:8435" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="9162:10128" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="9219:9300" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="9579:9742" ph="/* Use a transaction to ensure that we do not encounter issues with ... */" />
+                <marker date="1617227507000" expanded="true" signature="9852:10116" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="9902:9987" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="10015:10098" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="10192:12946" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="10459:12934" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="10496:10610" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="10654:12920" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="11363:12886" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="11410:11752" ph="/* Debug.Log(&quot;foreach - iterazione &quot; + i++); ... */" />
+                <marker date="1617227507000" expanded="true" signature="12286:12613" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="12642:12767" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="12981:13103" ph="/// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it. ... " />
+                <marker date="1617227507000" expanded="true" signature="13257:14045" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="13555:13907" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="13924:14035" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="14064:14166" ph="/// Update the anchor if hosting Cloud Anchor is success. ... " />
+                <marker date="1617227507000" expanded="true" signature="14213:15129" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="14261:14365" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="14507:14822" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="14896:15119" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="15148:15252" ph="/// Update the anchor if resolving Cloud Anchor is success. ... " />
+                <marker date="1617227507000" expanded="true" signature="15301:16463" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="15349:15453" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="15595:16150" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="16224:16453" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="16490:16650" ph="/// Callback invoked once the Cloud Anchor Id changes. ... " />
+                <marker date="1617227507000" expanded="true" signature="16696:16972" ph="{...}" />
+                <marker date="1617227507000" expanded="true" signature="16757:16962" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -99,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NetworkManagerUIController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="-484">
               <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
                 <marker date="1617198712000" expanded="true" signature="0:825" ph="/* ----------------------------------------------------------------------- ... */" />
@@ -179,9 +196,11 @@
       <find>getCu</find>
       <find>_currentRoomNumber</find>
       <find>ResolveCloudAnchorId</find>
-      <find>_hostedCloudAnchorId</find>
       <find>setHostedCloudAnchorId</find>
       <find>Anchor id</find>
+      <find>_hostedCloudAnchorId</find>
+      <find>anchormap[&quot;Anchor Id&quot;]</find>
+      <find>_clouAnchorId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,12 +260,12 @@
       <updated>1617136193181</updated>
       <workItem from="1617136213302" duration="4110000" />
       <workItem from="1617184467540" duration="1838000" />
-      <workItem from="1617203144350" duration="4473000" />
+      <workItem from="1617203144350" duration="13332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10421000" />
+    <option name="totallyTimeSpent" value="19280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +304,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,89 +313,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AnchorController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="310" column="68" selection-start-line="310" selection-start-column="68" selection-end-line="310" selection-end-column="68" />
-          <folding>
-            <marker date="1617210760000" expanded="true" signature="0:815" ph="/* ----------------------------------------------------------------------- ... */" />
-            <marker date="1617210760000" expanded="true" signature="874:16322" ph="{...}" />
-            <marker date="1617210760000" expanded="false" signature="887:1216" ph="..." />
-            <marker date="1617210760000" expanded="true" signature="1222:1373" ph="/// A Controller for the Anchor object that handles hosting and resolving the ... " />
-            <marker date="1617210760000" expanded="true" signature="1482:16320" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="1497:1656" ph="/// The customized timeout duration for resolving request to prevent retrying to resolve ... " />
-            <marker date="1617210760000" expanded="true" signature="1721:1907" ph="/// The Cloud Anchor ID for the hosted anchor's &lt;see cref=&quot;ARCloudAnchor&quot;/&gt;. ... " />
-            <marker date="1617210760000" expanded="true" signature="2141:2243" ph="/// Indicates whether this script is running in the Host. ... " />
-            <marker date="1617210760000" expanded="true" signature="2291:2412" ph="/// Indicates whether an attempt to resolve the Cloud Anchor should be made. ... " />
-            <marker date="1617210760000" expanded="true" signature="2467:2584" ph="/// Indicates whether to chekc Cloud Anchor state and update the anchor. ... " />
-            <marker date="1617210760000" expanded="true" signature="2643:2804" ph="/// Record the time since resolving started. If the timeout has passed, display ... " />
-            <marker date="1617210760000" expanded="true" signature="2869:3031" ph="/// Indicates whether passes the resolving timeout duration or the anchor has been ... " />
-            <marker date="1617210760000" expanded="true" signature="3095:3330" ph="/// The anchor mesh object. ... " />
-            <marker date="1617210760000" expanded="true" signature="3380:3549" ph="/// The Cloud Anchor created locally which is used to moniter whether the ... " />
-            <marker date="1617210760000" expanded="true" signature="3603:3689" ph="/// The Cloud Anchors example controller. ... " />
-            <marker date="1617210760000" expanded="true" signature="3777:3901" ph="/// The AR Anchor Manager in the scene, used to host or resolve a Cloud Anchor. ... " />
-            <marker date="1617210760000" expanded="true" signature="3968:4042" ph="/// The Unity Awake() method. ... " />
-            <marker date="1617210760000" expanded="true" signature="4070:4448" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="4467:4549" ph="/// The Unity OnStartClient() method. ... " />
-            <marker date="1617210760000" expanded="true" signature="4594:4728" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="4651:4718" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="4747:4822" ph="/// The Unity Update() method. ... " />
-            <marker date="1617210760000" expanded="true" signature="4851:6290" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="4886:5037" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="4940:5023" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="5054:6280" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="5104:6140" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="5277:5353" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="5404:5790" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="5569:5768" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="5917:6122" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="6181:6266" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="6309:6484" ph="/// Command run on the server to set the Cloud Anchor Id. ... " />
-            <marker date="1617210760000" expanded="true" signature="6620:6755" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="6774:6972" ph="/// Hosts the user placed cloud anchor and associates the resulting Id with this object. ... " />
-            <marker date="1617210760000" expanded="true" signature="7020:7648" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="7293:7550" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="7567:7638" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="7679:7951" ph="/* A realtime database transaction receives MutableData which can be modified ... */" />
-            <marker date="1617210760000" expanded="true" signature="8024:9104" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="8374:8435" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="9151:10117" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="9208:9289" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="9568:9731" ph="/* Use a transaction to ensure that we do not encounter issues with ... */" />
-            <marker date="1617210760000" expanded="true" signature="9841:10105" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="9891:9976" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="10004:10087" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="10181:12288" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="10448:12276" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="10485:10599" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="10643:12262" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="11280:12244" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="11755:12000" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="12029:12154" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="12323:12445" ph="/// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it. ... " />
-            <marker date="1617210760000" expanded="true" signature="12599:13387" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="12897:13249" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="13266:13377" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="13406:13508" ph="/// Update the anchor if hosting Cloud Anchor is success. ... " />
-            <marker date="1617210760000" expanded="true" signature="13555:14471" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="13603:13707" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="13849:14164" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="14238:14461" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="14490:14594" ph="/// Update the anchor if resolving Cloud Anchor is success. ... " />
-            <marker date="1617210760000" expanded="true" signature="14643:15805" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="14691:14795" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="14937:15492" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="15566:15795" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="15832:15992" ph="/// Callback invoked once the Cloud Anchor Id changes. ... " />
-            <marker date="1617210760000" expanded="true" signature="16038:16314" ph="{...}" />
-            <marker date="1617210760000" expanded="true" signature="16099:16304" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NetworkManagerUIController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="-484">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <marker date="1617198712000" expanded="true" signature="0:825" ph="/* ----------------------------------------------------------------------- ... */" />
@@ -442,6 +381,87 @@
             <marker date="1617198712000" expanded="true" signature="14751:14922" ph="{...}" />
             <marker date="1617198712000" expanded="true" signature="15090:15196" ph="{...}" />
             <marker date="1617198712000" expanded="true" signature="15251:15414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnchorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="177" column="21" lean-forward="true" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
+          <folding>
+            <marker date="1617227507000" expanded="true" signature="0:815" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1617227507000" expanded="true" signature="874:16980" ph="{...}" />
+            <marker date="1617227507000" expanded="false" signature="887:1216" ph="..." />
+            <marker date="1617227507000" expanded="true" signature="1222:1373" ph="/// A Controller for the Anchor object that handles hosting and resolving the ... " />
+            <marker date="1617227507000" expanded="true" signature="1482:16978" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="1497:1656" ph="/// The customized timeout duration for resolving request to prevent retrying to resolve ... " />
+            <marker date="1617227507000" expanded="true" signature="1721:1907" ph="/// The Cloud Anchor ID for the hosted anchor's &lt;see cref=&quot;ARCloudAnchor&quot;/&gt;. ... " />
+            <marker date="1617227507000" expanded="true" signature="2141:2243" ph="/// Indicates whether this script is running in the Host. ... " />
+            <marker date="1617227507000" expanded="true" signature="2291:2412" ph="/// Indicates whether an attempt to resolve the Cloud Anchor should be made. ... " />
+            <marker date="1617227507000" expanded="true" signature="2467:2584" ph="/// Indicates whether to chekc Cloud Anchor state and update the anchor. ... " />
+            <marker date="1617227507000" expanded="true" signature="2643:2804" ph="/// Record the time since resolving started. If the timeout has passed, display ... " />
+            <marker date="1617227507000" expanded="true" signature="2869:3031" ph="/// Indicates whether passes the resolving timeout duration or the anchor has been ... " />
+            <marker date="1617227507000" expanded="true" signature="3095:3330" ph="/// The anchor mesh object. ... " />
+            <marker date="1617227507000" expanded="true" signature="3380:3549" ph="/// The Cloud Anchor created locally which is used to moniter whether the ... " />
+            <marker date="1617227507000" expanded="true" signature="3603:3689" ph="/// The Cloud Anchors example controller. ... " />
+            <marker date="1617227507000" expanded="true" signature="3777:3901" ph="/// The AR Anchor Manager in the scene, used to host or resolve a Cloud Anchor. ... " />
+            <marker date="1617227507000" expanded="true" signature="3968:4042" ph="/// The Unity Awake() method. ... " />
+            <marker date="1617227507000" expanded="true" signature="4070:4448" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="4467:4549" ph="/// The Unity OnStartClient() method. ... " />
+            <marker date="1617227507000" expanded="true" signature="4594:4728" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="4651:4718" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="4747:4822" ph="/// The Unity Update() method. ... " />
+            <marker date="1617227507000" expanded="true" signature="4851:6290" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="4886:5037" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="4940:5023" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="5054:6280" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="5104:6140" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="5277:5353" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="5404:5790" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="5569:5768" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="5917:6122" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="6181:6266" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="6309:6484" ph="/// Command run on the server to set the Cloud Anchor Id. ... " />
+            <marker date="1617227507000" expanded="true" signature="6620:6755" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="6774:6972" ph="/// Hosts the user placed cloud anchor and associates the resulting Id with this object. ... " />
+            <marker date="1617227507000" expanded="true" signature="7020:7648" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="7293:7550" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="7567:7638" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="7679:7951" ph="/* A realtime database transaction receives MutableData which can be modified ... */" />
+            <marker date="1617227507000" expanded="true" signature="8024:9115" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="8374:8435" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="9162:10128" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="9219:9300" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="9579:9742" ph="/* Use a transaction to ensure that we do not encounter issues with ... */" />
+            <marker date="1617227507000" expanded="true" signature="9852:10116" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="9902:9987" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="10015:10098" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="10192:12946" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="10459:12934" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="10496:10610" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="10654:12920" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="11363:12886" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="11410:11752" ph="/* Debug.Log(&quot;foreach - iterazione &quot; + i++); ... */" />
+            <marker date="1617227507000" expanded="true" signature="12286:12613" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="12642:12767" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="12981:13103" ph="/// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it. ... " />
+            <marker date="1617227507000" expanded="true" signature="13257:14045" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="13555:13907" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="13924:14035" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="14064:14166" ph="/// Update the anchor if hosting Cloud Anchor is success. ... " />
+            <marker date="1617227507000" expanded="true" signature="14213:15129" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="14261:14365" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="14507:14822" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="14896:15119" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="15148:15252" ph="/// Update the anchor if resolving Cloud Anchor is success. ... " />
+            <marker date="1617227507000" expanded="true" signature="15301:16463" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="15349:15453" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="15595:16150" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="16224:16453" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="16490:16650" ph="/// Callback invoked once the Cloud Anchor Id changes. ... " />
+            <marker date="1617227507000" expanded="true" signature="16696:16972" ph="{...}" />
+            <marker date="1617227507000" expanded="true" signature="16757:16962" ph="{...}" />
           </folding>
         </state>
       </provider>
