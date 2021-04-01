@@ -6,7 +6,7 @@ using Firebase.Analytics;
 
 public class FirebaseInit : MonoBehaviour
 {    
-    protected bool isFirebaseInitialized = false;
+    public static bool isFirebaseInitialized = false;
 
     // Start is called before the first frame update
     void Start()

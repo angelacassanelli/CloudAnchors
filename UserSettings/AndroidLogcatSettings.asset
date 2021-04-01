@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "auhihi7pydtoqov4",
         "name": "com.AngelaCassanelli.CloudAnchorsARf",
-        "processId": 7085,
+        "processId": 8443,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,55 +11,43 @@
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 14956,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 18197,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 21836,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 3166,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 16159,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "org.telegram.messenger",
-            "processId": 17444,
-            "exited": false
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 22729,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 4262,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 7085,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 25766,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 29732,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.miui.home",
+            "processId": 1725,
+            "exited": false
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 8443,
             "exited": false
         },
         {
@@ -179,7 +167,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "iterazione ",
+    "m_Filter": "",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }

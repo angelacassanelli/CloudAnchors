@@ -244,10 +244,15 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
             Dictionary<string, string> newAnchorMap = new Dictionary<string, string>();
 
             // Now we add a new entry that contains the room number address and the cloud anchor id.
+            
             newAnchorMap["Room Number"] = _currentRoomNumber;
-            newAnchorMap["Anchor Id"] = _clouAnchorId;                                                   
+            newAnchorMap["Anchor Id"] = _clouAnchorId;      
+
+            //newAnchorMap[_currentRoomNumber] = _clouAnchorId;
                                                                     
             anchors.Add(newAnchorMap);
+
+            //setHostedCloudAnchorId();
 
             // You must set the Value to indicate data at that location has changed.
             mutableData.Value = anchors;
@@ -276,30 +281,42 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                         Debug.Log("Transaction complete.");
                     }
                 });
-        }
-        
+        }                       
+
         
         private void setHostedCloudAnchorId()
         {
             Debug.Log(String.Format("Attempting to retrieve cloud anchor id..."));
 
             DatabaseReference reference = FirebaseDatabase.DefaultInstance.GetReference("anchors");
-            
-            reference.GetValueAsync().ContinueWith(task => {
+
+            reference.GetValueAsync().ContinueWith(task =>
+            {
                 if (task.IsFaulted)
                 {
                     Debug.Log("Task is faulted");
                     return;
                 }
-                else if (task.IsCompleted) {
+                else if (task.IsCompleted)
+                {
+                    if (FirebaseInit.isFirebaseInitialized)
+                    {
+                        Debug.Log("FIREBASE IS INITIALIZED");
+                    }
+                    else
+                    {
+                        {
+                            Debug.Log("FIREBASE IS NOT INITIALIZED");
+                        }
+                    }
                     Debug.Log("Task is completed");
                     DataSnapshot snapshot = task.Result;
                     long numberOfEntries = snapshot.ChildrenCount;
                     Debug.Log("Number of database entries = " + numberOfEntries);
-                    
+
                     // Do something with snapshot...                    
-                    
-                    NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();            
+
+                    NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
                     string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();
 
                     int i = 0;
@@ -311,11 +328,14 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                         _hostedCloudAnchorId = (string)anchormap["Anchor Id"];
                         Debug.Log("HOSTED ANCHOR ID = " + _hostedCloudAnchorId);
                         */
+
+
                         
                         Debug.Log("foreach - iterazione " + i++);
                         IDictionary anchormap = (IDictionary)anchor_snapshot.Value;
                         
                         Debug.Log("anchor map = " + anchormap);
+                        Debug.Log("anchor map json value = " + snapshot.GetRawJsonValue());                                                
                         Debug.Log("ROOM NUMBER = " + anchormap["Room Number"]);
                         Debug.Log("ANCHOR ID = " + (string)anchormap["Anchor Id"]);
                         
@@ -330,12 +350,13 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                         {
                             Debug.Log("ora sono nell'else del foreach");
                         }
-                        Debug.Log("Current room number not found.");   
+                        Debug.Log("Current room number not found.");
                         
-                    }                
+
+                    }
                 }
             });
-        }
+        }    
         
                 
         /// <summary>
