@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e493e3-9bd6-413e-9c4f-bc0bda1fccbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Scripts.DotSettings.user.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnchorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnchorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../UserSettings/AndroidLogcatSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnchorController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3393">
-              <caret line="323" column="24" selection-start-line="323" selection-start-column="24" selection-end-line="323" selection-end-column="24" />
+            <state relative-caret-position="507">
+              <caret line="175" column="67" lean-forward="true" selection-start-line="175" selection-start-column="67" selection-end-line="175" selection-end-column="67" />
               <folding>
                 <marker date="1617290753000" expanded="true" signature="0:815" ph="/* ----------------------------------------------------------------------- ... */" />
                 <marker date="1617290753000" expanded="true" signature="874:16234" ph="{...}" />
@@ -87,7 +87,7 @@
                 <marker date="1617290753000" expanded="true" signature="10532:10646" ph="{...}" />
                 <marker date="1617290753000" expanded="true" signature="10689:12170" ph="{...}" />
                 <marker date="1617290753000" expanded="true" signature="11332:12152" ph="{...}" />
-                <marker date="1617290753000" expanded="true" signature="11752:11987" ph="{...}" />
+                <marker date="1617290753000" expanded="true" signature="11752:12012" ph="{...}" />
                 <marker date="1617290753000" expanded="true" signature="12235:12357" ph="/// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it. ... " />
                 <marker date="1617290753000" expanded="true" signature="12511:13299" ph="{...}" />
                 <marker date="1617290753000" expanded="true" signature="12809:13161" ph="{...}" />
@@ -187,11 +187,12 @@
       <workItem from="1617184467540" duration="1838000" />
       <workItem from="1617203144350" duration="13332000" />
       <workItem from="1617269412363" duration="4528000" />
+      <workItem from="1617294542766" duration="159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24507000" />
+    <option name="totallyTimeSpent" value="25082000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnchorController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3393">
-          <caret line="323" column="24" selection-start-line="323" selection-start-column="24" selection-end-line="323" selection-end-column="24" />
+        <state relative-caret-position="507">
+          <caret line="175" column="67" lean-forward="true" selection-start-line="175" selection-start-column="67" selection-end-line="175" selection-end-column="67" />
           <folding>
             <marker date="1617290753000" expanded="true" signature="0:815" ph="/* ----------------------------------------------------------------------- ... */" />
             <marker date="1617290753000" expanded="true" signature="874:16234" ph="{...}" />
@@ -311,7 +312,7 @@
             <marker date="1617290753000" expanded="true" signature="10532:10646" ph="{...}" />
             <marker date="1617290753000" expanded="true" signature="10689:12170" ph="{...}" />
             <marker date="1617290753000" expanded="true" signature="11332:12152" ph="{...}" />
-            <marker date="1617290753000" expanded="true" signature="11752:11987" ph="{...}" />
+            <marker date="1617290753000" expanded="true" signature="11752:12012" ph="{...}" />
             <marker date="1617290753000" expanded="true" signature="12235:12357" ph="/// Resolves the Cloud Anchor Id and instantiate a Cloud Anchor on it. ... " />
             <marker date="1617290753000" expanded="true" signature="12511:13299" ph="{...}" />
             <marker date="1617290753000" expanded="true" signature="12809:13161" ph="{...}" />

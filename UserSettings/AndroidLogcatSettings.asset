@@ -1,31 +1,13 @@
 {
-    "m_SelectedDeviceId": "LMG810EAW1095e8d8",
+    "m_SelectedDeviceId": "auhihi7pydtoqov4",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "auhihi7pydtoqov4",
+        "name": "com.AngelaCassanelli.CloudAnchorsARf",
+        "processId": 18752,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 22729,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 4262,
-            "exited": true
-        },
-        {
-            "deviceId": "auhihi7pydtoqov4",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 7085,
-            "exited": true
-        },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
@@ -42,12 +24,24 @@
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.miui.home",
             "processId": 1725,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "auhihi7pydtoqov4",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 8443,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 32588,
+            "exited": true
+        },
+        {
+            "deviceId": "auhihi7pydtoqov4",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 18752,
             "exited": false
         },
         {
@@ -85,6 +79,12 @@
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 9039,
             "exited": true
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 13299,
+            "exited": false
         }
     ],
     "m_Tags": {
