@@ -57,7 +57,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
 #pragma warning restore 618
         private string _clouAnchorId = string.Empty;
         
-        private static string _hostedCloudAnchorId = string.Empty;
+        private static string _hostedCloudAnchorId;
 
         /// <summary>
         /// Indicates whether this script is running in the Host.
@@ -153,6 +153,7 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 if (_shouldResolve)
                 {
                     setHostedCloudAnchorId();
+                    Debug.Log("Set hosted cloud anchor id: " + _hostedCloudAnchorId);
                     
                     if (!_cloudAnchorsExampleController.IsResolvingPrepareTimePassed())
                     {
@@ -170,10 +171,8 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                         }
                     }
 
-                    //if (!string.IsNullOrEmpty("_hostedCloudAnchorId") && _cloudAnchor == null)
-                    if(1==1)
+                    if (!string.IsNullOrEmpty("_hostedCloudAnchorId") && _cloudAnchor == null)
                     {
-                        Debug.Log("Ciao sono nell'update e l'id è " + _hostedCloudAnchorId);
                         ResolveCloudAnchorId(_hostedCloudAnchorId);
                     }
                 }
@@ -299,16 +298,6 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                 }
                 else if (task.IsCompleted)
                 {
-                    if (FirebaseInit.isFirebaseInitialized)
-                    {
-                        Debug.Log("FIREBASE IS INITIALIZED");
-                    }
-                    else
-                    {
-                        {
-                            Debug.Log("FIREBASE IS NOT INITIALIZED");
-                        }
-                    }
                     Debug.Log("Task is completed");
                     DataSnapshot snapshot = task.Result;
                     long numberOfEntries = snapshot.ChildrenCount;
@@ -319,40 +308,21 @@ namespace Google.XR.ARCoreExtensions.Samples.CloudAnchors
                     NetworkManagerUIController _networkManagerUIController = new NetworkManagerUIController();
                     string _currentRoomNumber = _networkManagerUIController.getCurrentRoomNumber();
 
-                    int i = 0;
                     foreach (DataSnapshot anchor_snapshot in snapshot.Children)
-                    {
-                        /*
-                        Debug.Log("foreach - iterazione " + i++);   
+                    {                        
                         IDictionary anchormap = (IDictionary)anchor_snapshot.Value;
-                        _hostedCloudAnchorId = (string)anchormap["Anchor Id"];
-                        Debug.Log("HOSTED ANCHOR ID = " + _hostedCloudAnchorId);
-                        */
+                                              
+                        Debug.Log("Room number: " + anchormap["Room Number"]);
+                        Debug.Log("Anchor id:" + (string)anchormap["Anchor Id"]);
 
-
-                        
-                        Debug.Log("foreach - iterazione " + i++);
-                        IDictionary anchormap = (IDictionary)anchor_snapshot.Value;
-                        
-                        Debug.Log("anchor map = " + anchormap);
-                        Debug.Log("anchor map json value = " + snapshot.GetRawJsonValue());                                                
-                        Debug.Log("ROOM NUMBER = " + anchormap["Room Number"]);
-                        Debug.Log("ANCHOR ID = " + (string)anchormap["Anchor Id"]);
-                        
                         if (anchormap["Room Number"].Equals(_currentRoomNumber))
                         {
-                            Debug.Log("ora sono nell'if del foreach");
-                            _hostedCloudAnchorId = (string)anchormap["Anchor Id"];
-                            Debug.Log("HOSTED ANCHOR ID = " + _hostedCloudAnchorId);
+                            _hostedCloudAnchorId = (string) anchormap["Anchor Id"];
+                            Debug.Log("Set hosted anchor id: " + _hostedCloudAnchorId);
                             return;
                         }
-                        else
-                        {
-                            Debug.Log("ora sono nell'else del foreach");
-                        }
-                        Debug.Log("Current room number not found.");
                         
-
+                        Debug.Log("Current room number not found.");                        
                     }
                 }
             });

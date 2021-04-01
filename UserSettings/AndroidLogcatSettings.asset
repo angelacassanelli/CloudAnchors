@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "auhihi7pydtoqov4",
+    "m_SelectedDeviceId": "LMG810EAW1095e8d8",
     "m_SelectedPackage": {
-        "deviceId": "auhihi7pydtoqov4",
-        "name": "com.AngelaCassanelli.CloudAnchorsARf",
-        "processId": 8443,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -59,62 +59,32 @@
         {
             "deviceId": "LMG810EAW1095e8d8",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 17645,
-            "exited": true
-        },
-        {
-            "deviceId": "LMG810EAW1095e8d8",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 19628,
-            "exited": true
-        },
-        {
-            "deviceId": "LMG810EAW1095e8d8",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 21226,
-            "exited": true
-        },
-        {
-            "deviceId": "LMG810EAW1095e8d8",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 26143,
-            "exited": true
-        },
-        {
-            "deviceId": "LMG810EAW1095e8d8",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 30268,
-            "exited": true
-        },
-        {
-            "deviceId": "LMG810EAW1095e8d8",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
-            "processId": 32555,
-            "exited": false
-        },
-        {
-            "deviceId": "LMG810EAW1095e8d8",
-            "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 3743,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "LMG810EAW1095e8d8",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 4873,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "LMG810EAW1095e8d8",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 6493,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "LMG810EAW1095e8d8",
             "name": "com.AngelaCassanelli.CloudAnchorsARf",
             "processId": 8867,
-            "exited": false
+            "exited": true
+        },
+        {
+            "deviceId": "LMG810EAW1095e8d8",
+            "name": "com.AngelaCassanelli.CloudAnchorsARf",
+            "processId": 9039,
+            "exited": true
         }
     ],
     "m_Tags": {
